@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Some Made Up&trade; Web Development Agency </title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="forms-tables.css" rel="stylesheet">
+  </head>
+  <style>
+  header
+  {
+    background-image:url('images.jpg');
+    background-position: center;
+  }
+  table, th, td {
+  border: 1px solid black;
+  width:50%;
+  height:50%;
+
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+input[type=text],
+input[type=email],
+input[type=subject]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  background-color: #e7e7e7;
+  color: black;
+}
+
+textarea{
+  width: 60%;
+
+}
+tr:hover {background-color: #f5f5f5;}
+
+    </style>
+
+  <body>
+    <div class="wrapper">
+    <header>
+      <h1> Some Made Up&trade; Web Development Agency </h1>
+      <h2> Let our team of industry experts create the web application/site of your dreamsQ </h2>
+    </header>
+      <main>
+         <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Department</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Contact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Art & Design</td>
+                <td>Bob Ross</td>
+                <td>Art Director</td>
+                <td>bob@somemadeup.com</td>
+              </tr>
+              <tr>
+                <td>Development</td>
+                <td>The Ghost of Ada Lovelace</td>
+                <td>Lead Developer </td>
+                <td>ada@somemadeup.com</td>
+              </tr>
+              <tr>
+                <td>Development</td>
+                <td>Mark Zukerberg</td>
+                <td>Junior Developer</td>
+                <td>zuks@somemadeup.com</td>
+              </tr>
+               <tr>
+                <td>Sales, Marketing & All Things RichardCentric </td>
+                <td>Richard Branson</td>
+                <td> Business Development </td>
+                <td>rich@somemadeup.com</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </section>
+        <section>
+            <h2> Contact Us Today!</h2>
+             <form>
+                 <input type="text" name="firstname" placeholder="First Name">
+                 <input type="text" name="lastname" placeholder="Last Name">
+                 <input type="email" name="email" placeholder="Email Address">
+                 <input type="subject" name="subject" placeholder="Subject">
+                 <br>
+                 <br>
+                 <label> Addtional Comments</label>
+                 <br>
+                 <br>
+                 <textarea></textarea>
+                 <br>
+                 <br>
+                <input type="submit" value="Contact Us">
+            </form>
+        </section>
+      </main>
+    </div> <!--end wrapper-->
+  </body>
+</html>
+
+<!---I have used striped table with single header type.
+styled the button and changed it's color.-->
